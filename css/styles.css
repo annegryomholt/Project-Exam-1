@@ -1,3 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
+html{
+	
+}
 
+
+body{
+	min-height: 100vh;
+	
+}
+
+#content {
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+h3 {
+	 font-size:30px;
+	 color: red;
+}
+p {
+	font-size:20px;
+		 }
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	display: inline-block;
+	padding: 15px;
+	margin-right: 20px;
+	
+}
+nav{
+	background-color: white;
+}

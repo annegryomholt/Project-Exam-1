@@ -29,13 +29,17 @@ nav a {
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
-	display:inline-grid;
-	padding: 30px;
+	display: inline-flex;
+	padding: 20px;
 
 	
 }
 nav{
 	background-color: black;
-	position: fixed;
+	position: relative;
+	left: 100px;
 /*	width: 100%;*/
+}
+form {
+	background-color:white;
 }

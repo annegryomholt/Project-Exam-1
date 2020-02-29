@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<header>
+	<header><img src="images/StarlinkLogo.png" alt="logo starlink" width="250px">
 		<nav>
 			<a href="https://www.spacex.com/">SpaceX</a>
 			<a href="index.html">Home</a>
@@ -24,29 +24,33 @@
 		</nav>
 	</header>
 	<main>
-		<section>
-			<form>
-				<label>Enter your first name:
-					<input type="text" name="firstname">
-				</label>
-				<label>Enter your last name:
-					<input type="text" name="lastname">
-				</label>
-				<label>Enter phone number (123 45 678): 
-    				<input type="text" name="phone">
-				</label>
-				<label>Enter your email adress: 
-    				<input type="text" name="email">
-				</label>
-				<input type="submit">
-			</form>
-		</section>
 	</main>
+	
 <!--
 		<div id="content">
 		
 		</div>	
--->
+-->	<section>
+			<form>
+				<label>Enter your first name:
+					<input type="text" name="firstname" id="firstname">
+					<span class="error" id="firstNameError">This field cannot be blank</span>
+					<span class="success" id="firstNameSuccess">Yay!This will work</span>
+				</label>
+				<label>Enter your email adress: 
+    				<input type="text" name="email" id="email">
+					<span class="error" id="emailError">Please enter a correct email address</span>
+					<span class="success" id="emailSuccess">Yay!This will work</span>
+				</label>
+				<label>Your message:
+				<input type="text" name="message" id="textField">
+				</label>
+<!--				<input type="submit">-->
+				<button type="submit" id="submitContact" class="m-t-30">Register new user <i class="fa fa-paper-plane" aria-hidden="true"></i>
+				</button>
+			</form>
+		
+		</section>
 	<script src="script-contact.js"></script>
 </body>
 </html>

@@ -30,14 +30,14 @@ fetch("https://api.spacexdata.com/v3/info")
 		}
 	
 
-function myFunction() {
-  var x = document.getElementById("content");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+//function myFunction() {
+//  var x = document.getElementById("content");
+//  if (x.style.display === "none") {
+//    x.style.display = "block";
+//  } else {
+//    x.style.display = "none";
+//  }
+//}
 
 /*---------------------timeline---------------*/
 (function() {

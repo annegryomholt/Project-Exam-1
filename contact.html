@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<header><img src="images/StarlinkLogo.png" alt="logo starlink" width="250px">
+	<header><img src="images/StarlinkLogo.png" alt="logo starlink" width="260px">
 		<nav>
 			<a href="https://www.spacex.com/">SpaceX</a>
 			<a href="index.html">Home</a>
@@ -33,20 +33,21 @@
 -->	<section>
 			<form>
 				<label>Enter your first name:
-					<input type="text" name="firstname" id="firstname">
+					<input type="text" placeholder=" Eks: Kari Norman" name="firstname" id="firstName">
 					<span class="error" id="firstNameError">This field cannot be blank</span>
-					<span class="success" id="firstNameSuccess">Yay!This will work</span>
+					<span class="success" id="firstNameSuccess">Your name is now registered</span>
 				</label>
 				<label>Enter your email adress: 
-    				<input type="text" name="email" id="email">
+    				<input type="text" placeholder=" Eks: name3926@epost" name="email" id="email">
 					<span class="error" id="emailError">Please enter a correct email address</span>
-					<span class="success" id="emailSuccess">Yay!This will work</span>
+					<span class="success" id="emailSuccess">your email is now registered</span>
 				</label>
 				<label>Your message:
-				<input type="text" name="message" id="textField">
+				<input type="text" placeholder=" Eks: Hi Elon!" name="message" id="textField">
+					<span class="success" id="messageSuccess">Thank you for your message!</span>
 				</label>
 <!--				<input type="submit">-->
-				<button type="submit" id="submitContact" class="m-t-30">Register new user <i class="fa fa-paper-plane" aria-hidden="true"></i>
+				<button type="submit" id="submitContact" class="m-t-30">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i>
 				</button>
 			</form>
 		
